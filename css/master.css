@@ -236,9 +236,6 @@ background-color: white;
   background-position: center 150%;
   color: white;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   border-radius: 0 100px 0 100px;
 }
 
