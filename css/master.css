@@ -232,10 +232,8 @@ background-color: white;
 
 .thirdSection {
   background-image: url("../images/bg-pattern-circles.svg"), linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  background-position: 50% -550%;
-  background-size: 165% auto;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-position: center 150%;
   color: white;
   margin: 0;
   display: flex;
