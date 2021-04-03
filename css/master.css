@@ -262,18 +262,17 @@ background-color: white;
 /* Forth Section */
 
 .forthSection {
-  width: 85%;
-  margin: 25% auto;
+  margin: 15% auto 25%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.forthSection img {
-  width: 100%;
+.forthSectionContent {
+    width: 85%;
+    margin: auto;
 }
-
 /* Last Section */
 
 .lastSection {
