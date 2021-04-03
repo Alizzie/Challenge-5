@@ -235,6 +235,7 @@ background-color: white;
   background-position: 50% -550%;
   background-size: 165% auto;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   color: white;
   margin: 0;
   display: flex;
