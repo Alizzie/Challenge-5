@@ -208,6 +208,7 @@ background-color: white;
     display: none;
 }
 
+
 .rotateArrow {
   transform: rotate(180deg);
 }
@@ -238,8 +239,8 @@ background-color: white;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-radius: 0 100px 0 100px;
 }
 
@@ -255,8 +256,8 @@ background-color: white;
 }
 
 .phoneImg {
-  width: 100%;
-  margin: -170px 0 0;
+  width: 85%;
+  margin: -38% 0 0;
 }
 
 /* Forth Section */
@@ -269,10 +270,17 @@ background-color: white;
   justify-content: center;
 }
 
+
+
+.laptopDiv img {
+  width: 100%;
+}
+
 .forthSectionContent {
     width: 85%;
     margin: auto;
 }
+
 /* Last Section */
 
 .lastSection {
