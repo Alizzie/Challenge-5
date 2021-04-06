@@ -16,7 +16,7 @@ h2, h3, h4 {
 }
 
 h1 {
-  margin: 0 0 3%;
+  margin: 0 0 1%;
   font-size: 2.2rem;
 }
 
@@ -72,7 +72,7 @@ button {
 }
 
 .buttons {
-  margin: 15% 0 0;
+  margin: 10% 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -139,6 +139,14 @@ button {
 .navHeading {
   margin: 0 5% 0 0;
   cursor: pointer;
+}
+
+.arrowImg {
+  background-image: url("../images/icon-arrow-dark.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
 }
 
 .hiddenItems {
@@ -241,7 +249,7 @@ button {
 .lastSection {
   background-color: hsl(240, 10%, 16%);
   color: white;
-  padding: 20% 0 5%;
+  padding: 17% 0 5%;
   border-radius: 0 100px 0 0;
 }
 
@@ -264,7 +272,7 @@ button {
 }
 
 .footer h4 {
-  color: white;
+    color: hsla(0, 0%, 100%, 0.85);
   margin: 5% 0;
 }
 
@@ -293,13 +301,13 @@ min-width: 480px (Medium Devices) */
   }
 
   .btn {
-    padding: 3% 4%;
-    width: 40%;
+    padding: 3% 0;
+    width: 25%;
     margin: 0 5%;
   }
 
   .lastSection {
-    padding-top: 10%;
+    padding-top: 8%;
   }
 
   .footerItems {
@@ -329,10 +337,6 @@ min-width: 480px (Medium Devices) */
   .websiteHeading {
     width: 75%;
     margin: 5% auto;
-  }
-
-  .btn {
-    width: 30%;
   }
 
   .left:hover {
@@ -464,7 +468,7 @@ min-width: 480px (Medium Devices) */
   }
 
   .websiteHeading {
-    margin: 4% auto;
+    margin: 3% auto;
   }
 
   .websiteHeading p {
@@ -472,12 +476,12 @@ min-width: 480px (Medium Devices) */
   }
 
   .buttons {
-    margin: 5% auto 0;
+    margin: 3% auto 0;
   }
 
   .btn {
     width: 18%;
-    padding: 2%;
+    padding: 2% 0;
     margin: 1% 2%;
   }
 
@@ -523,6 +527,12 @@ min-width: 480px (Medium Devices) */
     color: white;
   }
 
+  .arrowImg {
+    background-image: url("../images/icon-arrow-light.svg");
+    width: 25px;
+    height: 30px;
+  }
+
   .click {
     color: white;
   }
@@ -532,7 +542,7 @@ min-width: 480px (Medium Devices) */
   }
 
   .navItems {
-    margin: 0 7% 0 0;
+    margin: 0 3% 0 0;
   }
 
   .hiddenItems {
@@ -652,10 +662,10 @@ min-width: 480px (Medium Devices) */
     flex-wrap: nowrap;
     justify-content: space-between;
     margin: 0 12.5% 0 0;
-    padding: 12% 0;
+    padding: 15% 0;
     background-image: url("../images/illustration-laptop-desktop.svg");
-    background-size: 70%;
-    background-position: -65% center;
+    background-size: 80%;
+    background-position: -115% center;
     background-repeat: no-repeat;
   }
 
@@ -669,7 +679,7 @@ min-width: 480px (Medium Devices) */
   }
 
   .lastSection {
-    padding-top: 7%;
+    padding-top: 5%;
   }
 
   .footerContent {
@@ -695,19 +705,20 @@ min-width: 480px (Medium Devices) */
   .footer li {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
+    font-size: 0.9rem;
   }
 
   .footer h4 {
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 15%;
   }
 }
 
+/* min-width: 1200px  */
 @media all and (min-width: 1200px) {
-
   .btn {
-    width: 15%;
-    padding: 2% 1%;
+    width: 13%;
+    padding: 1.5% 0;
   }
 
   .secondSection {
@@ -725,11 +736,16 @@ min-width: 480px (Medium Devices) */
   }
 
   .forthSection {
-    padding: 15% 0;
+    padding: 19% 0;
   }
 }
 
+/* min-width: 1350px */
 @media all and (min-width: 1350px) {
+
+  h1 {
+    font-size: 4rem;
+  }
 
   h2 {
     font-size: 2.5rem;
@@ -741,7 +757,6 @@ min-width: 480px (Medium Devices) */
 
   .firstSection h4 {
     font-weight: 600;
-    font-size: 1.1rem;
   }
 
   .secondSection {
@@ -762,7 +777,4 @@ min-width: 480px (Medium Devices) */
   .forthSection {
     padding: 18% 0;
   }
-
-
-
 }

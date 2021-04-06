@@ -4,13 +4,9 @@ const navMenu = document.getElementsByClassName("navMenu")[0];
 const navbarHeadings = Array.from(document.getElementsByClassName("navbarHeadings"));
 const hiddenItems = Array.from(document.getElementsByClassName("hiddenItems"));
 const navHeading = Array.from(document.getElementsByClassName("navHeading"));
-const allImages = document.getElementsByTagName("img");
-const navArrowImages = Array.from(allImages).slice(2, 5);
-const untilXLargeScreen = window.matchMedia("(max-width: 1024px)");
-const xLargeScreen = window.matchMedia("(min-width: 1025px)");
+const navArrowImages = Array.from(document.getElementsByClassName("arrowImg")); 
 
 // Media Query Stylings (navbar Menu and images)
-if (untilXLargeScreen.matches) {
   navbarIcon.addEventListener("click", function() {
     navMenu.classList.toggle("hidden");
     if (navbarIcon.getAttribute("src") === "images/icon-hamburger.svg") {
@@ -19,10 +15,6 @@ if (untilXLargeScreen.matches) {
       navbarIcon.setAttribute("src", "images/icon-hamburger.svg");
     }
   })
-} else {
-  navMenu.classList.remove("hidden");
-  navArrowImages.forEach(arrow => arrow.setAttribute("src", "images/icon-arrow-light.svg"));
-}
 
 // Navbar Functionality (Only one hiddenItems Section can show up // heading is underlined, but only can be seen on xlarger Devices)
 for (let i = 0; i < navbarHeadings.length; i++) {
