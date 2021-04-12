@@ -32,6 +32,7 @@ p {
 
 a {
   text-decoration: none;
+  color: hsla(208, 49%, 24%, 0.9);
 }
 
 ul {
@@ -263,7 +264,6 @@ button {
 
 .footerItems {
   line-height: 2rem;
-  color: hsl(240, 2%, 79%);
   width: 85%;
 }
 
@@ -276,15 +276,15 @@ button {
   margin: 5% 0;
 }
 
+.footerItems a, .attribution a {
+  color: hsl(240, 2%, 79%);
+}
+
 /* attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
   background-color: hsl(240, 10%, 16%);
-  color: hsl(240, 2%, 79%);
-}
-
-.attribution a {
   color: hsl(240, 2%, 79%);
 }
 
